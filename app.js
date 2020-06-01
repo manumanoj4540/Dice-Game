@@ -33,7 +33,7 @@ document.querySelector('.btn-roll').addEventListener('click', function ()
 }   )
 
 
-
+//Holding the score
 
 document.querySelector('.btn-hold').addEventListener('click', function ()
 {    
@@ -61,7 +61,7 @@ document.querySelector('.btn-hold').addEventListener('click', function ()
     }  )
 
 
-                                                     
+     //Next Player                                                
  function nextPlayer()
 {
     document.querySelector('#current-'+activePlayer).textContent='0';
@@ -76,7 +76,7 @@ document.querySelector('.btn-hold').addEventListener('click', function ()
          
 }
       
-
+// New Game
 document.querySelector('.btn-new').addEventListener('click', function ()
 {
     init();
